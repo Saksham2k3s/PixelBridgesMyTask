@@ -1,0 +1,650 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!--Bootstrap CSS link-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <!--Fontawesome-->
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+    <!--CSS file link-->
+    <link rel="stylesheet" href="./CSS/style.css" />
+    <title>Earn | Decentralized Perpetual Exchange</title>
+  </head>
+  <body>
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-lg">
+      <a class="navbar-brand" href="#">
+        <img src="./Images/New Logo.png" alt="navlogo" />
+      </a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse options" id="navbarSupportedContent">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Dashboard.html">Dashboard</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Earn.html">Earn</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Referral</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">NFT</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Buy</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"> Ecosystem </a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="container-right">
+        <button class="default-btn mx-2">Trade</button>
+        <button class="connect-wallet">
+          <img
+            src="https://zomi.finance/static/media/ic_wallet_24.a19a6758.svg"
+            alt=""
+          />
+          Connect Wallet
+        </button>
+        <button class="btn3 d-flex">
+          <img
+            src="	https://zomi.finance/static/media/ic_eth_24.6b1d8a1d.svg"
+            alt=""
+          />
+          <div class="right-border mx-2"></div>
+          <i class="fa-solid fa-ellipsis-vertical text-white"></i>
+        </button>
+      </div>
+    </nav>
+
+    <!--Navbar-->
+    <div class="container-fluid background earn-page-layout py-4">
+      <div class="container px-5">
+        <div class="page-title">Earn</div>
+        <div class="page-description">
+          Stake $ZOMI and $ZLP to earn rewards.
+        </div>
+        <!--StackV2 Section-->
+
+        <!---------------------------1st row tables--------------------->
+        <div class="row mt-5">
+          <div class="col-md-6 mt-3 px-1">
+            <div class="App-card">
+              <div class="card-title py-2">
+                <span class="px-3">$ROMI</span>
+              </div>
+              <div class="App-card-divider"></div>
+              <div class="description py-2">
+                <div class="items d-flex justify-content-between py-2 px-3">
+                  <h3 class="h5">Price</h3>
+                  <h4
+                    class="float-end"
+                    data-bs-toggle="popover"
+                    data-bs-content="This is the price"
+                  >
+                    $0.00
+                  </h4>
+                </div>
+                <div class="items d-flex justify-content-between py-2 px-3">
+                  <h3 class="h5">Price</h3>
+                  <h4
+                    class="float-end"
+                    data-bs-toggle="popover"
+                    data-bs-content="This is the price"
+                  >
+                    ... $ROMI ($...)
+                  </h4>
+                </div>
+                <div class="items d-flex justify-content-between py-2 px-3">
+                  <h3 class="h5">Price</h3>
+                  <h4
+                    class="float-end"
+                    data-bs-toggle="popover"
+                    data-bs-content="This is the price"
+                  >
+                    ... $ROMI ($...)
+                  </h4>
+                </div>
+              </div>
+              <div class="App-card-divider"></div>
+
+              <div class="description py-2">
+                <div class="items d-flex justify-content-between py-2 px-3">
+                  <h3 class="h5">APR</h3>
+                  <h4
+                    class="float-end"
+                    data-bs-toggle="popover"
+                    data-bs-content="This is the price"
+                  >
+                    ...%
+                  </h4>
+                </div>
+                <div class="items d-flex justify-content-between py-2 px-3">
+                  <h3 class="h5">Rewards</h3>
+                  <h4
+                    class="float-end"
+                    data-bs-toggle="popover"
+                    data-bs-content="This is the price"
+                  >
+                    $...
+                  </h4>
+                </div>
+                <div class="items d-flex justify-content-between py-2 px-3">
+                  <h3 class="h5">Multiplier Points APR</h3>
+                  <h4
+                    class="float-end"
+                    data-bs-toggle="popover"
+                    data-bs-content="This is the price"
+                  >
+                    100.00%
+                  </h4>
+                </div>
+                <div class="items d-flex justify-content-between py-2 px-3">
+                  <h3 class="h5">Boost Percentage</h3>
+                  <h4
+                    class="float-end"
+                    data-bs-toggle="popover"
+                    data-bs-content="This is the price"
+                  >
+                    ...%
+                  </h4>
+                </div>
+              </div>
+
+              <div class="App-card-divider"></div>
+
+              <div class="description py-2">
+                <div class="items d-flex justify-content-between py-2 px-3">
+                  <h3 class="h5">Total Staked</h3>
+                  <h4
+                    class="float-end"
+                    data-bs-toggle="popover"
+                    data-bs-content="This is the price"
+                  >
+                    0 $ZOMI ($...)
+                  </h4>
+                </div>
+                <div class="items d-flex justify-content-between py-2 px-3">
+                  <h3 class="h5">Total Supply</h3>
+                  <h4
+                    class="float-end"
+                    data-bs-toggle="popover"
+                    data-bs-content="This is the price"
+                  >
+                    10,000 $ZOMI ($10)
+                  </h4>
+                </div>
+              </div>
+
+              <div class="App-card-divider"></div>
+
+              <div class="description py-2 px-3">
+                <button class="default-btn">Buy $ROMI</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 mt-3 px-1">
+            <div class="App-card">
+              <div class="card-title py-2">
+                <span class="px-3">Total Rewards</span>
+              </div>
+              <div class="App-card-divider"></div>
+
+              <div class="description py-2" style="margin-bottom: 7.6rem">
+                <div class="items d-flex justify-content-between py-2 px-3">
+                  <h3 class="h5">ETH (WETH)</h3>
+                  <h4
+                    class="float-end"
+                    data-bs-toggle="popover"
+                    data-bs-content="This is the price"
+                  >
+                    ... ($...)
+                  </h4>
+                </div>
+                <div class="items d-flex justify-content-between py-2 px-3">
+                  <h3 class="h5">$ZOMI</h3>
+                  <h4
+                    class="float-end"
+                    data-bs-toggle="popover"
+                    data-bs-content="This is the price"
+                  >
+                    ... ($...)
+                  </h4>
+                </div>
+                <div class="items d-flex justify-content-between py-2 px-3">
+                  <h3 class="h5">Escrowed $ZOMI</h3>
+                  <h4
+                    class="float-end"
+                    data-bs-toggle="popover"
+                    data-bs-content="This is the price"
+                  >
+                    ... ($...)
+                  </h4>
+                </div>
+                <div class="items d-flex justify-content-between py-2 px-3">
+                  <h3 class="h5">Multiplier Points</h3>
+                  <h4
+                    class="float-end"
+                    data-bs-toggle="popover"
+                    data-bs-content="This is the price"
+                  >
+                    ...
+                  </h4>
+                </div>
+                <div class="items d-flex justify-content-between py-2 px-3">
+                  <h3 class="h5">Staked Multiplier Points</h3>
+                  <h4
+                    class="float-end"
+                    data-bs-toggle="popover"
+                    data-bs-content="This is the price"
+                  >
+                    ...
+                  </h4>
+                </div>
+                <div class="items d-flex justify-content-between py-2 px-3">
+                  <h3 class="h5">Total</h3>
+                  <h4
+                    class="float-end"
+                    data-bs-toggle="popover"
+                    data-bs-content="This is the price"
+                  >
+                    $...
+                  </h4>
+                </div>
+              </div>
+
+              <div class="App-card-divider"></div>
+
+              <div class="description py-2 px-3">
+                <button class="default-btn">Connect Wallet</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!----------------------------2nd row table--------------------------------------->
+        <div class="row mt-2">
+          <div class="col-md-6 mt-3 px-1">
+            <div class="App-card">
+              <div class="card-title py-2">
+                <span class="px-3">$ZLP (Ethereum)</span>
+              </div>
+              <div class="App-card-divider"></div>
+              <div class="description py-2">
+                <div class="items d-flex justify-content-between py-2 px-3">
+                  <h3 class="h5">Price</h3>
+                  <h4
+                    class="float-end"
+                    data-bs-toggle="popover"
+                    data-bs-content="This is the price"
+                  >
+                    $..
+                  </h4>
+                </div>
+                <div class="items d-flex justify-content-between py-2 px-3">
+                  <h3 class="h5">Wallet</h3>
+                  <h4
+                    class="float-end"
+                    data-bs-toggle="popover"
+                    data-bs-content="This is the price"
+                  >
+                    ... $ZLP ($...)
+                  </h4>
+                </div>
+                <div class="items d-flex justify-content-between py-2 px-3">
+                  <h3 class="h5">Staked</h3>
+                  <h4
+                    class="float-end"
+                    data-bs-toggle="popover"
+                    data-bs-content="This is the price"
+                  >
+                    ... $ZLP ($...)
+                  </h4>
+                </div>
+              </div>
+              <div class="App-card-divider"></div>
+
+              <div class="description py-2">
+                <div class="items d-flex justify-content-between py-2 px-3">
+                  <h3 class="h5">APR</h3>
+                  <h4
+                    class="float-end"
+                    data-bs-toggle="popover"
+                    data-bs-content="This is the price"
+                  >
+                    ...%
+                  </h4>
+                </div>
+                <div class="items d-flex justify-content-between py-2 px-3">
+                  <h3 class="h5">Rewards</h3>
+                  <h4
+                    class="float-end"
+                    data-bs-toggle="popover"
+                    data-bs-content="This is the price"
+                  >
+                    $...
+                  </h4>
+                </div>
+              </div>
+
+              <div class="App-card-divider"></div>
+
+              <div class="description py-2">
+                <div class="items d-flex justify-content-between py-2 px-3">
+                  <h3 class="h5">Total Staked</h3>
+                  <h4
+                    class="float-end"
+                    data-bs-toggle="popover"
+                    data-bs-content="This is the price"
+                  >
+                    ... $ZLP ($...)
+                  </h4>
+                </div>
+                <div class="items d-flex justify-content-between py-2 px-3">
+                  <h3 class="h5">Total Supply</h3>
+                  <h4
+                    class="float-end"
+                    data-bs-toggle="popover"
+                    data-bs-content="This is the price"
+                  >
+                    ... $ZLP ($...)
+                  </h4>
+                </div>
+              </div>
+
+              <div class="App-card-divider"></div>
+
+              <div class="description py-2 px-3">
+                <button class="default-btn">Buy $ZLP</button>
+                <button class="default-btn">Sell $ZLP</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 mt-3 px-1">
+            <div class="App-card">
+              <div class="card-title py-2">
+                <span class="px-3">Escrowed $ZOMI</span>
+              </div>
+              <div class="App-card-divider"></div>
+              <div class="description py-2">
+                <div class="items d-flex justify-content-between py-2 px-3">
+                  <h3 class="h5">Price</h3>
+                  <h4
+                    class="float-end"
+                    data-bs-toggle="popover"
+                    data-bs-content="This is the price"
+                  >
+                    $0.00
+                  </h4>
+                </div>
+                <div class="items d-flex justify-content-between py-2 px-3">
+                  <h3 class="h5">Wallet</h3>
+                  <h4
+                    class="float-end"
+                    data-bs-toggle="popover"
+                    data-bs-content="This is the price"
+                  >
+                    ... esZOMI ($...)
+                  </h4>
+                </div>
+                <div class="items d-flex justify-content-between py-2 px-3">
+                  <h3 class="h5">Staked</h3>
+                  <h4
+                    class="float-end"
+                    data-bs-toggle="popover"
+                    data-bs-content="This is the price"
+                  >
+                    ... esZOMI ($...)
+                  </h4>
+                </div>
+              </div>
+              <div class="App-card-divider"></div>
+
+              <div class="description py-2">
+                <div class="items d-flex justify-content-between py-2 px-3">
+                  <h3 class="h5">APR</h3>
+                  <h4
+                    class="float-end"
+                    data-bs-toggle="popover"
+                    data-bs-content="This is the price"
+                  >
+                    ...%
+                  </h4>
+                </div>
+                <div class="items d-flex justify-content-between py-2 px-3">
+                  <h3 class="h5">Multiplier Points APR</h3>
+                  <h4
+                    class="float-end"
+                    data-bs-toggle="popover"
+                    data-bs-content="This is the price"
+                  >
+                    100.00%
+                  </h4>
+                </div>
+              </div>
+
+              <div class="App-card-divider"></div>
+
+              <div class="description py-2">
+                <div class="items d-flex justify-content-between py-2 px-3">
+                  <h3 class="h5">Total Staked</h3>
+                  <h4
+                    class="float-end"
+                    data-bs-toggle="popover"
+                    data-bs-content="This is the price"
+                  >
+                    ... esZOMI ($...)
+                  </h4>
+                </div>
+                <div class="items d-flex justify-content-between py-2 px-3">
+                  <h3 class="h5">Total Supply</h3>
+                  <h4
+                    class="float-end"
+                    data-bs-toggle="popover"
+                    data-bs-content="This is the price"
+                  >
+                    1,023,379 esZOMI ($1,043)
+                  </h4>
+                </div>
+              </div>
+
+              <div class="App-card-divider"></div>
+
+              <div class="description py-2 px-3">
+                <button class="default-btn">Connect Wallet</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-----------------------------Vest section start------------------->
+        <div class="page-title mt-4">Vest</div>
+        <div class="page-description vestDescription">
+          <p>Convert esROMI tokens to $ROMI tokens.</p>
+          <p>Please read the <u>vesting details</u> before using the vaults.</p>
+        </div>
+
+        <!-----------------------------3rd row table----------------------------->
+        <div class="row mt-2">
+          <div class="col-md-6 mt-3 px-1">
+            <div class="App-card">
+              <div class="card-title py-2">
+                <span class="px-3">$ZOMI Vault</span>
+              </div>
+              <div class="App-card-divider"></div>
+              <div class="description py-2">
+                <div class="items d-flex justify-content-between py-2 px-3">
+                  <h3 class="h5">Staked Tokens</h3>
+                  <h4
+                    class="float-end"
+                    data-bs-toggle="popover"
+                    data-bs-content="This is the price"
+                  >
+                    ...
+                  </h4>
+                </div>
+                <div class="items d-flex justify-content-between py-2 px-3">
+                  <h3 class="h5">Reserved for Vesting</h3>
+                  <h4
+                    class="float-end"
+                    data-bs-toggle="popover"
+                    data-bs-content="This is the price"
+                  >
+                    0.00 / ...
+                  </h4>
+                </div>
+                <div class="items d-flex justify-content-between py-2 px-3">
+                  <h3 class="h5">Vesting Status</h3>
+                  <h4
+                    class="float-end"
+                    data-bs-toggle="popover"
+                    data-bs-content="This is the price"
+                  >
+                    0.0000 / 0.0000
+                  </h4>
+                </div>
+                <div class="items d-flex justify-content-between py-2 px-3">
+                  <h3 class="h5">Claimable</h3>
+                  <h4
+                    class="float-end"
+                    data-bs-toggle="popover"
+                    data-bs-content="This is the price"
+                  >
+                    0.0000 $ZOMI
+                  </h4>
+                </div>
+              </div>
+
+              <div class="App-card-divider"></div>
+
+              <div class="description py-2 px-3">
+                <button class="default-btn">Connect Wallet</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 mt-3 px-1">
+            <div class="App-card">
+              <div class="card-title py-2">
+                <span class="px-3">$ZLP Vault</span>
+              </div>
+              <div class="App-card-divider"></div>
+              <div class="description py-2">
+                <div class="items d-flex justify-content-between py-2 px-3">
+                  <h3 class="h5">Staked Tokens</h3>
+                  <h4
+                    class="float-end"
+                    data-bs-toggle="popover"
+                    data-bs-content="This is the price"
+                  >
+                    ... $ZLP
+                  </h4>
+                </div>
+                <div class="items d-flex justify-content-between py-2 px-3">
+                  <h3 class="h5">Reserved for Vesting</h3>
+                  <h4
+                    class="float-end"
+                    data-bs-toggle="popover"
+                    data-bs-content="This is the price"
+                  >
+                    0.00 / ...
+                  </h4>
+                </div>
+                <div class="items d-flex justify-content-between py-2 px-3">
+                  <h3 class="h5">Vesting Status</h3>
+                  <h4
+                    class="float-end"
+                    data-bs-toggle="popover"
+                    data-bs-content="This is the price"
+                  >
+                    0.0000 / 0.0000
+                  </h4>
+                </div>
+                <div class="items d-flex justify-content-between py-2 px-3">
+                  <h3 class="h5">Claimable</h3>
+                  <h4
+                    class="float-end"
+                    data-bs-toggle="popover"
+                    data-bs-content="This is the price"
+                  >
+                    0.0000 $ROMI
+                  </h4>
+                </div>
+              </div>
+
+              <div class="App-card-divider"></div>
+
+              <div class="description py-2 px-3">
+                <button class="default-btn">Connect Wallet</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--Footer Start-->
+    <footer class="container-fluid">
+      <div class="footer">
+        <div class="text-center">
+          <img src="./Images/New Logo.png" alt="footerimg" />
+        </div>
+        <div class="row">
+          <div class="col-md-3"></div>
+          <div class="col-md-6 icon-image text-center px-5">
+            <div class="d-flex justify-content-around px-5">
+              <i class="fa-brands fa-twitter"></i>
+              <i class="fa-solid fa-m"></i>
+              <i class="fa-brands fa-github"></i>
+              <i class="fa-brands fa-telegram"></i>
+              <i class="fa-brands fa-discord"></i>
+            </div>
+            <div
+              class="d-flex justify-content-around footer-bottom-link px-5 mb-2 mt-2"
+            >
+              <a href="">Terms and Condition</a>
+              <a href="">Referral Terms</a>
+              <a href="">Media Kit</a>
+            </div>
+          </div>
+          <div class="col-md-3"></div>
+        </div>
+      </div>
+    </footer>
+
+    <!--Bootstrap Script-->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

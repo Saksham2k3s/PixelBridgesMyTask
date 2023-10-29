@@ -1,0 +1,402 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-family: "Relative", sans-serif;
+}
+
+/*========================================= Navbar CSS===================================== */
+
+.navbar-brand img {
+  width: 60px;
+  height: 60px;
+}
+.navbar {
+  background-color: #191919;
+  box-shadow: 0 0.7rem 0.8rem #101010;
+}
+.nav-item a {
+  color: #9c9c9e;
+  font-size: 15px;
+
+  margin-left: 1.5rem;
+}
+.nav-item a:hover {
+  color: rgba(255, 255, 255, 0.807);
+}
+.options {
+  margin-left: 14rem;
+}
+.container-right {
+  display: flex;
+  align-items: center;
+}
+.default-btn {
+  background: #3eb489;
+  border-radius: 4px;
+  font-size: 14px;
+  color: white;
+  padding: 5px 10px;
+  margin-top: 5px;
+}
+.connect-wallet {
+  border: 1px solid #3d3d3d;
+  padding: 5px 10px;
+  background: transparent;
+  border-radius: 4px;
+  color: white;
+}
+
+.connect-wallet:hover {
+  background-color: rgba(255, 255, 255, 0.115);
+}
+.connect-wallet-modal .modal-content {
+  background-color: #191919;
+}
+
+.modal-heading i {
+  color: #c2c2c2;
+  background: transparent;
+  font-size: 15px;
+}
+
+.wallet-btn {
+  border: 1px solid #4d4d4e;
+  border-radius: 4px;
+  display: flex;
+  padding: 14px;
+  margin-top: 7px;
+  cursor: pointer;
+}
+
+.wallet-btn:hover {
+  background-color: rgba(255, 255, 255, 0.115);
+}
+
+.wallet-btn img {
+  height: 30px;
+  width: 30px;
+}
+
+.wallet-btn .name {
+  margin-left: 12px;
+  font-size: 20px;
+  color: white;
+}
+.btn3 {
+  border: 1px solid #3d3d3d;
+  padding: 10px;
+  background: transparent;
+  border-radius: 4px;
+  color: white;
+}
+
+.btn3:hover {
+  background-color: rgba(255, 255, 255, 0.115);
+}
+.right-divider {
+  height: 23px;
+  width: 2px;
+  background-color: #b7b7bd;
+}
+.container-right button {
+  margin: 0 10px;
+}
+
+/*========================================= Homepage CSS===================================== */
+.main-container {
+  background-color: #191919;
+  border-bottom: 1px solid #3d3d3d;
+}
+.home-title h1 {
+  font-size: 50px;
+  font-family: relative, sans-serif, relativenumber;
+  line-height: 4rem;
+  font-weight: 550;
+}
+
+.home-description p {
+  color: #c2c2c2;
+  font-family: "Relative", sans-serif;
+  letter-spacing: 2px;
+  max-width: 30rem;
+  font-size: 18px;
+}
+.Launch-btn {
+  background: #3eb489;
+  border-radius: 4px;
+  font-size: 14px;
+  color: white;
+  padding: 7px;
+}
+
+.home-info-block {
+  max-width: 24rem;
+
+  border: 1px solid #3d3d3d;
+  padding: 21px 24px;
+
+  margin-bottom: 15px;
+  box-shadow: 0 0.7rem 0.8rem #101010;
+  border-radius: 4px;
+}
+
+.home-info-block img {
+  align-items: center;
+}
+.home-info-block h2 {
+  color: #cecece;
+  font-size: 16px;
+  font-family: "Relative", sans-serif;
+  letter-spacing: 0px;
+}
+
+.Benefites {
+  border-bottom: 1px solid #3d3d3d;
+}
+
+.Benefites .border {
+  border-bottom: 1px solid white;
+  width: 100%;
+}
+
+.background {
+  background-color: #191919;
+}
+
+.benefites-heading span {
+  font-size: 1.4rem;
+  line-height: 2.8rem;
+  font-weight: 400;
+  margin-left: 1.5rem;
+  color: #ebebeb;
+}
+
+.benefites-para {
+  font-size: 1.2rem;
+  line-height: 1.7rem;
+  max-width: 20rem;
+  color: #cecece;
+  letter-spacing: 0;
+}
+
+.token-card-info .title {
+  font-size: 2.4rem;
+  line-height: 2.9rem;
+  font-weight: 600;
+  margin-bottom: 3.1rem;
+  margin-top: 4.5rem;
+  letter-spacing: 0;
+  color: #ebebeb;
+}
+
+.home-token-card {
+  border: 1px solid #3d3d3d;
+
+  box-shadow: 0 0.7rem 0.8rem #101010;
+  border-radius: 4px;
+}
+.home-token-card-title p {
+  color: white;
+  font-size: 25px;
+}
+.home-token-card-description p {
+  font-size: 1.2rem;
+  color: white;
+  letter-spacing: 0;
+}
+.home-token-card-description h6 {
+  color: #cecece;
+  font-size: 15px;
+}
+
+/*========================================= Earnpage CSS===================================== */
+.earn-page-layout .page-title {
+  font-size: 2.4rem;
+  font-weight: 500;
+  margin-bottom: 0.8rem;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.earn-page-layout .page-description {
+  color: #b7b7bd;
+  line-height: 0.1rem;
+  font-size: 1rem;
+}
+
+.stackv2-cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 1.5rem;
+}
+
+.stackv2-cards .App-card {
+  padding: 1.5rem 1.5rem 1.86rem;
+  border: 1px solid #4d4d4e;
+  border-radius: 0.4rem;
+  font-size: 1.5rem;
+}
+
+.App-card {
+  border: 1px solid #4d4d4e;
+  border-radius: 4px;
+  margin: 0;
+  padding: 6px 0;
+  background-color: #101010;
+}
+
+.App-card .card-title {
+  color: #ffffff;
+  margin: 0;
+  padding: 0;
+}
+
+.App-card-divider {
+  height: 1px;
+  background-color: #4d4d4e;
+}
+
+.App-card .items h3 {
+  font-size: 1rem;
+  color: #aeaeae;
+  line-height: 0.1rem;
+  margin-top: 5px;
+}
+
+.App-card .items h4 {
+  font-size: 1rem;
+  color: #ffffff;
+  line-height: 0.1rem;
+  margin-top: 5px;
+}
+
+.vestDescription {
+  line-height: 0.5rem;
+}
+
+/*========================================= Dashboard CSS===================================== */
+
+.dashboard-page-layout .page-title {
+  font-size: 2.2rem;
+  font-weight: 500;
+  margin-bottom: 0.8rem;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.dashboard-page-layout .page-description {
+  color: #b7b7bd;
+  line-height: 0.1rem;
+  font-size: 1rem;
+}
+
+/* Circular progress bar */
+
+.card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: transparent;
+  margin: 0 20px;
+
+  border-radius: 5px;
+  box-shadow: 0 10px 20px -10px rgba(0, 0, 0, 0.2);
+}
+
+.card .percent {
+  position: relative;
+}
+
+.card svg {
+  position: relative;
+  width: 210px;
+  height: 210px;
+  transform: rotate(-90deg);
+}
+
+.card svg circle {
+  width: 100%;
+  height: 100%;
+  fill: none;
+  stroke: #5c0af5;
+  stroke-width: 10;
+}
+
+.card svg circle:last-of-type {
+  stroke-dasharray: 625px;
+  stroke-dashoffset: calc(625px - (625px * var(--percent)) / 100);
+  stroke: #3498db;
+}
+
+.card .number {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.card .number h3 {
+  font-weight: 200;
+  font-size: 3.5rem;
+}
+
+.card .number h3 span {
+  font-size: 2rem;
+}
+
+.card .title h2 {
+  margin: 25px 0 0;
+}
+
+.card:nth-child(1) svg circle:last-of-type {
+  stroke: #0598fa;
+}
+
+/*========================================= Footer CSS===================================== */
+
+footer {
+  background-color: #101010;
+
+  width: 100%;
+  padding: 20px 0;
+}
+
+.footer img {
+  height: 100px;
+  width: 100px;
+}
+
+.footer span {
+  font-size: 1.4rem;
+  line-height: 2.8rem;
+  font-weight: 400;
+  margin-left: 1.5rem;
+  color: #ebebeb;
+}
+
+footer .icon-image i {
+  font-size: 35px;
+  margin-left: 10px;
+  margin-right: 10px;
+  color: #3d3d3d;
+}
+
+footer .icon-image i:hover {
+  color: white;
+  cursor: pointer;
+}
+
+.footer-bottom-link a {
+  text-decoration: none;
+  color: white;
+}
